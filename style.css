@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoylinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signupandimage {
+
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.signup {
+
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
