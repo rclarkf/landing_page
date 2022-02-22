@@ -3,6 +3,9 @@
 body {
 font-family:Roboto, sans-serif; 
 margin: 0;
+display: flex;
+flex-direction: column;
+flex: 1;
 }
 .header {
     font-family:Roboto, sans-serif; 
@@ -90,3 +93,111 @@ button {
     font-weight: bold;
     width: 100px;
   }
+
+  .body {
+      background-color: white;
+      color: black;
+      padding-bottom: 40px;
+  }
+
+  .titulo2 {
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+  }
+
+  .cuadros {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+  }
+ .cuadro {
+    border: 3px solid #3882fc;
+    border-radius: 10px;
+    background: white;
+    width: 100px;
+    height: 100px;
+    
+ }
+ .textos {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.texto {
+   
+  font-size: small;
+  background: white;
+  width: 104px;
+  height: 100px;
+  text-align: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: auto;
+
+
+}
+.p1, .firm {
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+   
+    width: 450px;
+    height: auto;
+}
+
+
+.firm {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.tercera {
+display: flex;
+justify-content: center;
+padding: 50px 0px;
+}
+.action {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.call {
+    margin-bottom: 0;
+    font-weight: 900;
+}
+ .signup2 { 
+     margin-top: 0;
+     font-size: smaller;
+}
+    .boton2{
+        background-color:#3882f6;
+        border-radius: 12px;
+        border-color: white;
+        border-style: solid ;
+        border-width: 2px;
+    }
+
+    .footer {
+        color: white;
+        background-color: #1F2937;
+        font-size: smaller;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
