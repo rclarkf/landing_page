@@ -1,18 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+font-family:Roboto, sans-serif; 
+margin: 0;
+}
 .header {
+    font-family:Roboto, sans-serif; 
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    height: 300px;
+    padding: 10px 80px 40px;
+    flex:1;
+    margin: 0;
 }
 
 .logoylinks {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex:1;
 }
 
 .signupandimage {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 50px 0;  
     
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+   
+}
+.links{
+    width: 420px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap:22px;
+    justify-content: flex-end;
+    padding-top: 8px;  
+}
+a {
+    
+    color: white;
+    text-decoration:none;
+    
+
+  }
+
+.titulo{
+    font-weight: 900;
+    font-size: 38px;
+    padding-bottom: 10px;
     
 }
 
@@ -20,6 +64,29 @@
 
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 300px;
+    justify-content: space-around;
+    
+  
+}
+.mensaje{
+    padding-bottom: 8px;
+}
+
+.image {
+    background-color: dimgrey;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+button {
+    background: #3882fc;
+    border: 1px solid #3882fc;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100px;
+  }
